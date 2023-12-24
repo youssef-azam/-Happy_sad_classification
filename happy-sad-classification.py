@@ -5,7 +5,7 @@ from PIL import Image
 
 # Load the model with error handling
 try:
-    model = tf.keras.models.load_model('Streamlit-Apps/happy-sad-classification/imageclassifier.h5')
+    model = tf.keras.models.load_model('Streamlit-Apps/-Happy_sad_classification/imageclassifier.h5')
 except Exception as e:
     st.error(f"Error loading the model: {e}")
     st.stop()
