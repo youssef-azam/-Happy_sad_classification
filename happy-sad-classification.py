@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-# Load the model with error handling
+# Load the model with error handling 
 try:
     model = tf.keras.models.load_model('imageclassifier.h5')
 except Exception as e:
